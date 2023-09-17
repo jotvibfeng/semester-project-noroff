@@ -1,6 +1,6 @@
 /*media width stylling*/
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 390px) {
     .nav-toggle-lable span,
    .nav-toggle-lable::before,
    .nav-toggle-lable::after {
@@ -567,8 +567,6 @@ footer.footer-pos3{
     }
 
 }
-
-
 
 
 @media screen and (min-width: 850px) {
