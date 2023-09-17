@@ -241,7 +241,6 @@ h2 {
 }
 
 h4 a {
-    margin-top: 0;
     text-decoration: none;
     color: black;
     display: grid;
@@ -250,8 +249,6 @@ h4 a {
     text-align: center;
     margin-top: -15px;
     margin-left: 20px;
-    
-    
 }
 
 div.flow-5 {
@@ -315,8 +312,6 @@ p.info {
    position: absolute;
    left: 20px;
    margin-top: -17px;
-   
-   
 }
 img.museum {
     object-fit: cover;
@@ -691,7 +686,7 @@ h1.footer-title {
 
  div.grid-adress{
    position: absolute;
-   margin-top: 60px;
+   top: -0px;
    color: white;
    
 }
@@ -714,7 +709,8 @@ ul.foot-info {
 li {
     font-size: 16px;
     font-weight: 300;
-    margin-top: -5px;
+    position: relative;
+    top: 200px;
 }
 ul.foot-follow {
    list-style: none;

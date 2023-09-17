@@ -1,6 +1,552 @@
 /*media width stylling*/
 
 
+@media screen and (min-width: 320px)
+/* For mobile user*/ {
+/*header for the desktop*/
+
+.nav-toggle-lable span,
+.nav-toggle-lable::before,
+.nav-toggle-lable::after {
+    display: block;
+    background-color: white;
+    height: 3px;
+    width: 36px;
+    border-radius: 1px;
+    left: 20px;
+    
+}
+
+.nav-toggle-lable::before {
+    bottom: 12px;
+    left: 20px;
+
+}
+
+.nav-toggle-lable::after {
+    top: 5px;
+    left: 20px;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 20px;
+    font-family: space-grotesk,sans-serif;
+    text-decoration: none;
+    margin: 0;
+    color: white;
+    z-index: 1000;
+}
+.s {
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    font-size: 20px;
+    font-family: space-grotesk,sans-serif;
+    text-decoration: none;
+    color: white;
+    z-index: 9999;
+}
+.m {
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    font-size: 20px;
+    font-family: space-grotesk,sans-serif;
+    text-decoration: none;
+    color: white;
+    z-index: 9999;
+}
+/*styled the index page*/
+      div img.museum-vis {
+        width: 100%;
+        height: 388px;
+        object-fit: cover;
+        object-position: 0px -300px;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+      }
+
+      span.border {
+        top: 488px;
+      }
+
+      div p.span-text {
+        width: 70%;
+        position: relative;
+        top: 360px;
+        left: 150px;
+      }
+
+      button {
+        width: 192px;
+        height: 37px;
+        padding: 10px;
+        position: relative;
+        top: 360px;
+        left: 180px;
+    }
+
+    button span {
+        font-size: 18px;
+        position: relative;
+        top: -3px;
+        left: 40px;
+    }
+
+      div h1.nav-link1 {
+        font-size: 40px;
+        font-weight: 500;
+        position: absolute;
+        top: 150px;
+        left: 150px;
+    }
+
+    h2 {
+        width: 60%;
+        font-size: 28px;
+        position: absolute;
+        top: 800px;
+        left: 150px;
+    }
+
+    div.grid-cloum {
+        position: absolute;
+        top: 960px;
+        left: 50px;
+    }
+
+    div.flow-5 {
+        left: 100px;
+    }
+
+
+h4 a {
+    font-size: 18px;
+}
+
+
+div img.grid {
+    width: 175px;
+    height: 127px;
+    position: relative;
+    left: 23px;
+   
+}
+
+    h2.top {
+        width: 80%;
+        font-size: 28px;
+        position: absolute;
+        top: 1600px;
+        left: 120px;
+    }
+    
+    h2.under {
+        font-size: 24px;
+        top: 1650px;
+        left: 120px;
+   
+    }
+
+    div.grid-news {
+        position: absolute;
+        top: 1750px;
+        left: 100px;
+    }
+
+    img {
+        width: 362px;
+        height: 166px;
+        position: relative;
+        left: -10px;
+     }
+    
+     h3.head-title {
+        font-size: 22px;
+        font-weight: 500;
+        position: flex;
+        line-height: normal;
+        margin-top: 10px;
+        margin-left: 20px;
+        
+    }
+
+    
+    p.info {
+       font-size: 18px;
+       width: 100%;
+       position: absolute;
+       left: 20px;
+       margin-top: -17px;
+    }
+
+    img.sheila{
+        object-position: 30px -20px;
+    }
+
+    img.museum {
+       object-position: 30px -260px;
+    }
+
+/*the head top style*/
+
+h1.museum-head {
+    font-size: 40px;
+    margin-top: 10px;
+    left: 50px;
+}
+
+img.head-pic {
+    width: 362px;
+    height: 160px;
+    position: relative;
+    left: 120px;
+}
+span.span-head {
+    height: 415px;
+}
+
+p.paragrah-head {
+    font-size: 18px;
+    font-weight: 400;
+    width: 65%;
+    position: relative;
+    left: 70px;
+}
+
+/*explore style*/
+
+div.explore-grid {
+    gap: 200px;
+    position: absolute;
+    top: 600px;
+    left: 10px;
+}
+
+img.explore-club {
+    border-radius: 50%;
+    width: 236px;
+    height: 236px;
+    z-index: 999;
+    position: relative;
+    left: 100px;
+}
+
+span.span-img {
+    background-color: #254D4C;
+    border-radius: 50%;
+    width: 255px;
+    height: 255px;
+    position: absolute;
+    top: -10px;
+    left: 90px;
+}
+
+div img.explore-img {
+    object-fit: cover;
+    object-position: 0px 0px ;
+    width: 236px;
+    height: 236px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    z-index: 999;
+}
+
+p.paragrah-section {
+    font-size: 18px;
+    width: 125%;
+    position: absolute;
+    margin: 0;
+    left: 100px;
+    top: 260px;
+}
+
+img.teacher-img {
+    width: 362px;
+   height: 160px;
+   left: 10px;
+    
+}
+
+
+p.teacher-par1 {
+    width: 70%;
+    position: relative;
+    left: 100px;
+    top: -150px;
+    font-size: 18px;
+}
+
+p.teacher-par2 {
+    width: 70%;
+    font-size: 18px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+img.reseacher-img {
+    width: 362px;
+    height: 160px;
+    left: 100px;
+}
+
+p.re-par {
+    width: 60%;
+    position: absolute;
+    left: 100px;
+    top: 550px;
+    
+}
+
+
+div.bottom-grid {
+    position: relative;
+    top: 2200px;
+
+}
+
+footer.footer-pos {
+    position: relative;
+    top: -250px;
+}
+
+/*style of Exhibition page*/
+
+div.exhibtion-grid {
+    position: absolute;
+    top: 600px;
+    left: 150px;
+}
+
+img.exhi-img {
+    width: 362px;
+    height: 160px;
+    left: -30px;
+}
+
+img.exhi-imgt {
+    width: 362px;
+    height: 160px;
+    left: -30px;
+}
+
+img.exhi-imge {
+    width: 362px;
+    height: 160px;
+    left: -30px;
+}
+
+
+h3.exhi-title {
+    top: 20px;
+    left: -100px;
+}
+
+p.exhi-par1 {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: -10px;
+    left: -30px;
+    width: 80%;
+}
+p.exhi-par2 {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+    left: -30px;
+    width: 80%;
+}
+p.exhi-par3 {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+    left: -30px;
+    width: 70%;
+}
+
+footer.footer-pos1 {
+    position: relative;
+    top: 150px;
+}
+
+/*The styling of about us page*/
+
+div.about-grid {
+    position: absolute;
+    left: 150px;
+}
+
+img.about-img {
+    width: 362px;
+    height: 166px;
+    object-fit: cover;
+    object-position: 0px -300px;
+    position: relative;
+    left: -50px;
+}
+
+img.about-img1 {
+    width: 362px;
+    height: 166px;
+    object-fit: cover;
+    object-position: 0px -40px;
+    position: relative;
+    left: -50px;
+}
+footer.footer-pos2 {
+    top: -1650px;
+}
+
+/*The styling the get involved page*/
+
+img.head-pic1 {
+    width: 362px;
+    height: 160px;
+    position: relative;
+    left: 120px;
+}
+
+img.about-imgs {
+    width: 362px;
+    height: 160px;
+    position: relative;
+    left: -50px;
+    object-fit: cover;
+}
+
+div.involved-grid {
+    position: absolute;
+    top: 700px;
+    left: 150px;
+}
+ 
+footer.footer-pos4 {
+    top: -800px;
+}
+
+/*The styling of visit page*/
+
+div.visit-grid {
+    top: 600px;
+    left: 50px;
+}
+
+h3.visit-title {
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+p.visit-par {
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+    position: relative;
+    top: -30px;
+   
+}
+p.visit-par1 {
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+    position: relative;
+    top: -40px;
+    
+  
+}
+p.visit-par2 {
+    font-size: 18px;
+    font-weight: 400;
+    display: grid;
+    width: 70%;
+    position: relative;
+    top: -30px;
+}
+
+
+footer.footer-pos3{
+    top: -1700px;
+}
+
+/* style footer */
+    footer div.csm-footer {
+        position: relative;
+        top: 2650px;
+    }
+    
+    div.foot-grid {
+        width: 20%;
+        grid-template-columns: 1fr;
+        font-size: 16px;
+        position: absolute;
+        left: 340px;
+        top: 20px;
+        color: rgba(186, 186, 186, 1);
+    }
+
+    h1.footer-title {
+        font-size: 18px;
+        color: white;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    
+     div.grid-adress{
+       position: absolute;
+       margin-top: 60px;
+       color: white;
+       
+    }
+    
+    h3 {
+      font-size: 16px;
+      font-weight: normal;
+      margin-left: 10px;
+      margin-top: -15px;
+    }
+    
+    ul.foot-info {
+        color: white;
+        list-style: none;
+        position: absolute;
+        top: -115px;
+        left: -45px;
+    }
+    
+    li {
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: -5px;
+    }
+    ul.foot-follow {
+       list-style: none;
+       color: #ffff;
+       position: absolute;
+       left: -45px;
+       top: -22px;
+    }
+   
+    
+    h4.foot-sos {
+        position: absolute;
+        top: 145px;
+        left: 10px;
+        color: #ffff;
+    }
+   
+}
 @media screen and (min-width: 850px) {
 /*header for the desktop*/
 
