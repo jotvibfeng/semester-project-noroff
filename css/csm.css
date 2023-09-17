@@ -287,7 +287,7 @@ h2.under {
 
 div.grid-news {
     display: grid;
-    gap: 20px;
+    gap: 120px;
     position: relative;
     top: 2250px;
 }
@@ -311,8 +311,8 @@ img {
 
 p.info {
    font-size: 18px;
-   width: 70%;
-   position: relative;
+   width: 80%;
+   position: absolute;
    left: 20px;
    margin-top: -17px;
    
@@ -366,7 +366,7 @@ p.paragrah-head {
 /*explore page styling*/
 div.explore-grid {
     display: grid;
-    gap: 190px;
+    gap: 290px;
     position: absolute;
     top: 700px;
 }
@@ -429,7 +429,7 @@ h3.teach-title {
     text-align: center;
     margin: 0;
     position: relative;
-    top: -10px;
+    top: -200px;
 }
 
 h3.research-title {
@@ -447,14 +447,14 @@ img.teacher-img {
     object-fit: contain;
     object-position: 200px 0px;
     position: relative;
-    top: 70px;
+    top: -170px;
 }
 
 p.teacher-par1 {
     width: 90%;
     position: relative;
     left: 35px;
-    top: 100px;
+    top: -150px;
     font-size: 18px;
 }
 p.teacher-par2 {
@@ -462,13 +462,13 @@ p.teacher-par2 {
     font-size: 18px;
     position: absolute;
     left: 35px;
-    top: 470px;
+    top: 230px;
 }
 
 p.re-par {
     width: 90%;
     position: relative;
-    left: 35px;
+    left: 15px;
     top: -60px;
     font-size: 18px;
 }
@@ -487,7 +487,7 @@ img.reseacher-img {
 
 footer.footer-pos {
     position: relative;
-    top: 700px;
+    top: 50px;
 }
 
 
@@ -589,6 +589,10 @@ div.involved-grid {
     top: 100px;
 }
 
+footer.footer-pos4 {
+    position: relative;
+    top: -2350px;
+}
 /*about page stylling*/
 
 div.about-grid {
@@ -674,7 +678,7 @@ footer div.csm-footer {
   width: 100%;
   height: 272px;
   position: relative;
-  top: 2400px;
+  top: 2500px;
 }
 
 h1.footer-title {
@@ -704,7 +708,7 @@ ul.foot-info {
     list-style: none;
     position: absolute;
     top: -115px;
-    margin-left: -45px;
+    left: -45px;
 }
 
 li {

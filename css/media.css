@@ -149,8 +149,8 @@ img.teacher-img {
 p.teacher-par1 {
     width: 60%;
     position: relative;
-    left: 150px;
-    top: 100px;
+    left: 160px;
+    top: -150px;
     font-size: 18px;
 }
 
@@ -158,8 +158,8 @@ p.teacher-par2 {
     width: 60%;
     font-size: 18px;
     position: absolute;
-    left: 155px;
-    top: 470px;
+    left: 160px;
+    top: 220px;
 }
 
 img.reseacher-img {
@@ -177,13 +177,13 @@ p.re-par {
 
 div.bottom-grid {
     position: relative;
-    top: 2300px;
+    top: 2650px;
 
 }
 
 footer.footer-pos {
     position: relative;
-    top: -1350px;
+    top: -1050px;
 }
 
 /*style of Exhibition page*/
@@ -210,7 +210,7 @@ p.exhi-par1 {
     position: relative;
     top: -10px;
     left: 30px;
-    width: 80%;
+    width: 60%;
 }
 p.exhi-par2 {
     font-size: 18px;
@@ -218,7 +218,7 @@ p.exhi-par2 {
     position: relative;
     top: -20px;
     left: 30px;
-    width: 80%;
+    width: 60%;
 }
 p.exhi-par3 {
     font-size: 18px;
@@ -226,12 +226,12 @@ p.exhi-par3 {
     position: relative;
     top: -20px;
     left: 30px;
-    width: 80%;
+    width: 60%;
 }
 
 footer.footer-pos1 {
     position: relative;
-    top: -650px;
+    top: -550px;
 }
 
 /*The styling of about us page*/
@@ -248,15 +248,20 @@ footer.footer-pos2 {
 /*The styling the get involved page*/
 
 img.head-pic1 {
-    width: 1200px;
-    height: 462px;
+    width: 550px;
+    height: 200px;
     position: relative;
-    left: 100px;
+    left: 200px;
 }
 
-div.invoveld-grid {
-    grid-template-columns: 1fr 1fr;
-    left: 15px;
+div.involved-grid {
+    position: absolute;
+    top: 700px;
+    left: 150px;
+}
+ 
+footer.footer-pos4 {
+    top: -1650px;
 }
 
 /*The styling of visit page*/
@@ -431,7 +436,7 @@ footer.footer-pos3{
     }
 
     div.grid-news {
-        all: unset;
+        gap: 200px;
         position: absolute;
         top: 2300px;
         left: 200px;
@@ -566,7 +571,7 @@ div.bottom-grid {
 
 footer.footer-pos {
     position: relative;
-    top: 1300px;
+    top: 550px;
 }
 
 /*style of Exhibition page*/
@@ -610,7 +615,7 @@ p.exhi-par3 {
 
 footer.footer-pos1 {
     position: relative;
-    top: 550px;
+    top: -250px;
 }
 
 /*The styling of about us page*/
@@ -684,7 +689,7 @@ footer.footer-pos3{
    ul.foot-info {
         position: relative;
         top: -60px; 
-        left: -470px;
+        left: -40px;
     }
 
     li {
@@ -830,13 +835,13 @@ footer.footer-pos3{
     
     div.flow-5 {
         position: absolute;
-        left: 220px;
-        top: -20px;
+        left: 190px;
+        top: 600px;
     }
     div.flow-4 {
         position: absolute;
         left: 400px;
-        top: -20px;
+        top: 300px;
     }
 
     h2.top {
@@ -871,7 +876,8 @@ footer.footer-pos3{
     }
 
     div.grid-news {
-        all: unset;
+        
+        gap: 110px;
         position: absolute;
         top: 2150px;
         left: 250px;
@@ -881,7 +887,7 @@ footer.footer-pos3{
     div.flow-2 {
         position: relative;
         left: 0px;
-        top: 20px;
+        top: 100px;
     }
 
 /*the head top style*/
@@ -933,7 +939,7 @@ span.span-img {
 p.paragrah-section {
     position: absolute;
     top: 620px;
-    left: -70px;
+    left: -30px;
     font-size: 22px;
     width: 80%;
     z-index: 999;
@@ -998,13 +1004,13 @@ img.reseacher-img {
 div.bottom-grid {
     grid-template-columns: 1fr 1fr;
     position: relative;
-    top: 4000px;
+    top: 3850px;
 
 }
 
 footer.footer-pos {
     position: relative;
-    top: 1300px;
+    top: 650px;
 }
 
 /*style of Exhibition page*/
@@ -1014,7 +1020,7 @@ div.exhibtion-grid {
     gap: 40px;
     position: absolute;
     top: 1050px;
-    left: 10px;
+    left: -10px;
 }
 
 div.exhi-1 {
@@ -1025,31 +1031,31 @@ div.exhi-1 {
 h3.exhi-title {
     font-size: 48px;
     position: relative;
-    left: -60px;
+    left: -30px;
 }
 
 p.exhi-par1 {
     font-size: 22px;
     font-weight: 400;
-    left: 25px;
+    left: 35px;
     width: 80%;
 }
 p.exhi-par2 {
     font-size: 22px;
     font-weight: 400;
-    left: 25px;
+    left: 35px;
     width: 80%;
 }
 p.exhi-par3 {
     font-size: 22px;
     font-weight: 400;
-    left: 25px;
+    left: 35px;
     width: 80%;
 }
 
 footer.footer-pos1 {
     position: relative;
-    top: -350px;
+    top: -900px;
 }
 
 /*The styling of about us page*/
@@ -1060,7 +1066,7 @@ div.about-grid {
 }
 
 footer.footer-pos2 {
-    top: -2100px;
+    top: -2600px;
 }
 
 /*The styling the get involved page*/
@@ -1096,7 +1102,7 @@ p.visit-par2 {
 }
 
 footer.footer-pos3{
-    top: -2100px;
+    top: 9500px;
 }
 
 /* style footer */
@@ -1120,7 +1126,7 @@ footer.footer-pos3{
    ul.foot-info {
         position: relative;
         top: -60px; 
-        left: 2px;
+        left: -42px;
     }
 
     li {
@@ -1146,7 +1152,7 @@ footer.footer-pos3{
     }
    
     div.foot-grid {
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr  ;
         position: absolute;
         left: 800px;
         top: -20px;
@@ -1267,10 +1273,12 @@ footer.footer-pos3{
     div.flow-5 {
         position: relative;
         left: 220px;
+        top: -50px;
     }
     div.flow-4 {
         position: relative;
         left: 200px;
+        top: -50px;
     }
 
     h2.top {
@@ -1300,6 +1308,7 @@ footer.footer-pos3{
     }
 
     p.info {
+        position: relative;
         font-size: 22px;
         width: 84%;
     }
@@ -1315,6 +1324,7 @@ footer.footer-pos3{
 
     div.flow-2 {
         position: relative;
+        top: -100px;
         left: 400px;
     }
 
@@ -1348,8 +1358,8 @@ span.span-head {
 
 div.explore-section {
     position: relative;
-    top: 300px;
-    left: 500px;
+    top: 100px;
+    left: 400px;
 }
 
 div.explore-grid {
@@ -1394,14 +1404,14 @@ h3.research-title {
 
 img.teacher-img {
     position: relative;
-    top: -40px;
+    top: 10px;
 }
 
 p.teacher-par1 {
     width: 40%;
     position: absolute;
     left: 35px;
-    top: 220px;
+    top: 250px;
     font-size: 18px;
 }
 p.teacher-par2 {
@@ -1409,14 +1419,14 @@ p.teacher-par2 {
     font-size: 18px;
     position: absolute;
     left: 35px;
-    top: 350px;
+    top: 370px;
 }
 
 p.re-par {
     width: 40%;
     position: absolute;
-    left: 730px;
-    top: 215px;
+    left: 740px;
+    top: 260px;
     font-size: 18px;
 }
 
@@ -1428,13 +1438,13 @@ img.reseacher-img {
 div.bottom-grid {
     grid-template-columns: 1fr 1fr;
     position: relative;
-    top: 4000px;
+    top: 3700px;
 
 }
 
 footer.footer-pos {
     position: relative;
-    top: 1400px;
+    top: 1250px;
 }
 
 /*style of Exhibition page*/
@@ -1442,14 +1452,14 @@ footer.footer-pos {
 div.exhibtion-grid {
    grid-template-columns: 1fr 1fr  ;
     gap: 40px;
-    position: relative;
-    top: 50px;
-    left: 10px;
+    position: absolute;
+    top: 1000px;
+    left: 20px;
 }
 
 div.exhi-1 {
     position: relative;
-    left: 380px;
+    left: 400px;
 }
 
 h3.exhi-title {
@@ -1479,18 +1489,18 @@ p.exhi-par3 {
 
 footer.footer-pos1 {
     position: relative;
-    top: -2750px;
+    top: -450px;
 }
 
 /*The styling of about us page*/
 
 div.about-grid {
     grid-template-columns: 1fr 1fr;
-    left: 10px;
+    left: 25px;
 }
 
 footer.footer-pos2 {
-    top: -2700px;
+    top: -1950px;
 }
 
 /*The styling the get involved page*/
@@ -1529,7 +1539,7 @@ footer.footer-pos3{
 /* style footer */
     footer div.csm-footer {
         position: relative;
-        top: 3000px;
+        top: 2800px;
     }
 
     h4.foot-sos {
@@ -1545,9 +1555,9 @@ footer.footer-pos3{
         top: -155px;
     }
    ul.foot-info {
-        position: relative;
+        position: absolute;
         top: -60px; 
-        left: 2px;
+        left: -42px;
     }
 
     li {
