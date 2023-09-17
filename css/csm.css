@@ -1,0 +1,737 @@
+body {
+    margin: 0;
+    font-family: roboto,sans-serif;
+}
+
+/*Header styling*/
+img.back-header{
+    width: 100%;
+    height: 120px;
+    object-fit:cover;
+    object-position: 0px -172px;
+    position: relative;
+    left: 0px;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 20px;
+    font-family: space-grotesk,sans-serif;
+    text-decoration: none;
+    margin: 0;
+    color: white;
+    z-index: 1000;
+}
+.s {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    font-size: 20px;
+    font-family: space-grotesk,sans-serif;
+    text-decoration: none;
+    color: white;
+    z-index: 9999;
+}
+.m {
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    font-size: 20px;
+    font-family: space-grotesk,sans-serif;
+    text-decoration: none;
+    color: white;
+    z-index: 9999;
+}
+
+span {
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    left: 18px;
+    bottom: 2px;
+}
+/*Nav-bar styling*/
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-lable {
+    position: absolute;
+    top: 65px;
+    left: 500px;
+    z-index: 9999;
+    align-items: center;
+}
+
+.nav-toggle-lable span,
+.nav-toggle-lable::before,
+.nav-toggle-lable::after {
+    display: block;
+    background-color: white;
+    height: 3px;
+    width: 36px;
+    border-radius: 1px;
+    
+}
+
+.nav-toggle-lable::before,
+.nav-toggle-lable::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-lable::before {
+    bottom: 12px;
+    left: 17.5px;
+
+}
+
+.nav-toggle-lable::after {
+    top: 5px;
+    left: 17.5px;
+}
+nav {
+    position: absolute;
+    text-align: left;
+    top: 0%;
+    left: 0;
+    background-color:rgb(37, 77, 76);
+    width: 100%;
+    height: 500%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 600ms ease-in-out;
+    z-index: 999;
+    
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    top: -70px;
+}
+
+nav h6 {
+    display: grid;
+    grid-template-columns: 70%;
+    width: 400px;
+    font-family: roboto,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    position: relative;
+    left: 15px;
+    top: 100px;
+}
+
+li {
+    margin-bottom: .5em;
+    margin-left: 1em;
+    position: relative;
+    top: 200px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 24px;
+    color: white;
+    opacity: 0;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.nav-toggle:checked ~ nav {
+    transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+} 
+
+/*Top section styling*/
+
+div img.museum-vis {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: 0px 20px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    
+}
+
+div h1.nav-link1 {
+    font-size: 60px;
+    font-weight: 500;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    
+}
+
+ h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+div p.span-text {
+    font-size: 20px;
+    font-weight: normal;
+    width: 360px;
+    height: 64px;
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    z-index: 998;
+}
+
+span.border {
+    background-color: #F57660;
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    top: 900px;
+    left: 0;
+}
+
+button {
+    display:flex;
+    width: 192px;
+    height: 37px;
+    padding: 10px;
+    text-align:center;
+    border-radius: 5px;
+    background-color: #254D4C;
+    color: white;
+    position: absolute;
+    top: 1005px;
+    left: 170px;
+}
+
+button span {
+    position: relative;
+    top: -2px;
+    left: 50px;
+}
+
+div.grid-cloum {
+    position: absolute;
+    top: 1290px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr  ;
+}
+
+h2 {
+    position: absolute;
+    top: 1180px;
+    left: 150px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h4 a {
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+    display: grid;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 20px;
+    
+    
+}
+
+div.flow-5 {
+   position: relative;
+   left: 150px;
+}
+
+div img.grid {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 23px;
+   
+}
+
+/*News exhibtion styling*/
+
+h2.top {
+    width: 520px;
+    font-size: 40px;
+    position: absolute;
+    top: 2200px;
+    left: 30px;
+}
+
+h2.under {
+    position: absolute;
+    top: 2290px;
+    left: 30px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+div.grid-news {
+    display: grid;
+    gap: 20px;
+    position: relative;
+    top: 2250px;
+}
+
+img {
+    width: 580px;
+    height: 300px;
+    position: relative;
+    left: -10px;
+ }
+
+ h3.head-title {
+    font-size: 24px;
+    font-weight: 500;
+    position: flex;
+    line-height: normal;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+
+p.info {
+   font-size: 18px;
+   width: 70%;
+   position: relative;
+   left: 20px;
+   margin-top: -17px;
+   
+   
+}
+img.museum {
+    object-fit: cover;
+    object-position: 30px -400px;
+}
+img.sheila{
+    object-fit: cover;
+    object-position: 30px -40px;
+    
+}
+img.science {
+    object-fit: cover;
+    object-position: 30px ;
+}
+
+/*head part of the next pages styling*/
+
+h1.museum-head {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+img.head-pic {
+    width: 550px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+}
+
+span.span-head {
+    background-color: #F57660;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+    z-index: -999;
+}
+
+p.paragrah-head {
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+    margin-left: 50px;
+}
+/*explore page styling*/
+div.explore-grid {
+    display: grid;
+    gap: 190px;
+    position: absolute;
+    top: 700px;
+}
+
+div.explore-section {
+    position: relative;
+    left: 50px;
+    width: 90%;
+}
+
+img.explore-club {
+    border-radius: 50%;
+    width: 236px;
+    height: 236px;
+    z-index: 999;
+    position: relative;
+    left: 100px;
+}
+
+span.span-img {
+    background-color: #254D4C;
+    border-radius: 50%;
+    width: 255px;
+    height: 255px;
+    position: absolute;
+    top: -10px;
+    left: 90px;
+}
+
+div img.explore-img {
+    object-fit: cover;
+    object-position: 0px 0px ;
+    width: 236px;
+    height: 236px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    z-index: 999;
+}
+
+p.paragrah-section {
+    font-size: 18px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 120px;
+    top: 260px;
+}
+
+div.bottom-grid {
+    display: grid;
+    gap: 30px;
+    position: relative;
+    top: 2500px;
+}
+
+h3.teach-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+
+h3.research-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: -80px;
+}
+
+img.teacher-img {
+    width: 550px;
+    height: 200px;
+    object-fit: contain;
+    object-position: 200px 0px;
+    position: relative;
+    top: 70px;
+}
+
+p.teacher-par1 {
+    width: 90%;
+    position: relative;
+    left: 35px;
+    top: 100px;
+    font-size: 18px;
+}
+p.teacher-par2 {
+    width: 90%;
+    font-size: 18px;
+    position: absolute;
+    left: 35px;
+    top: 470px;
+}
+
+p.re-par {
+    width: 90%;
+    position: relative;
+    left: 35px;
+    top: -60px;
+    font-size: 18px;
+}
+
+img.reseacher-img {
+    width: 550px;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+    left: 15px;
+    top: -60px;
+}
+
+
+
+
+footer.footer-pos {
+    position: relative;
+    top: 700px;
+}
+
+
+/*exhibition space styling*/
+div.exhibtion-grid {
+    display: grid;
+    gap: 10px;
+    position: relative;
+    top: 150px;
+    left: -10px;
+}
+
+
+h3.exhi-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+p.exhi-par1 {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: -10px;
+    left: 50px;
+    width: 80%;
+}
+p.exhi-par2 {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+    left: 50px;
+    width: 80%;
+}
+p.exhi-par3 {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+    left: 50px;
+    width: 80%;
+}
+
+img.exhi-img {
+    width: 550px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+    object-fit: cover;
+}
+ img.exhi-imgt {
+    width: 550px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+    object-fit: cover;
+    object-position: 0px -30px;
+}
+
+img.exhi-imge {
+    width: 550px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    object-fit: cover;
+    object-position: 0px -100px; 
+}
+
+footer.footer-pos1 {
+    position: relative;
+    top: 150px;
+}
+
+/*Involed page styling*/
+
+img.head-pic1 {
+    width: 550px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    object-fit: cover;
+    object-position: 0px -40px;
+}
+
+img.about-imgs {
+    width: 550px;
+    height: 300px;
+    position: relative;
+    left: 15px;
+    object-fit: cover;
+}
+
+div.involved-grid {
+    display: grid;
+    position: relative;
+    top: 100px;
+}
+
+/*about page stylling*/
+
+div.about-grid {
+    display: grid;
+    margin-top: 100px;
+}
+
+img.about-img {
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px -400px;
+    position: relative;
+    left: 20px;
+}
+img.about-img1 {
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0px -40px;
+    position: relative;
+    left: 20px;
+    
+   
+}
+
+footer.footer-pos2 {
+    position: relative;
+    top: -2200px;
+    text-align: center;
+}
+
+/*visit page styling*/
+div.visit-grid {
+    position: absolute;
+    top: 700px;
+    left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h3.visit-title {
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    left: -10px;
+}
+
+p.visit-par {
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+    position: relative;
+    top: -30px;
+   
+}
+p.visit-par1 {
+    font-size: 18px;
+    font-weight: 400;
+    width: 65%;
+    position: relative;
+    top: -40px;
+    
+  
+}
+p.visit-par2 {
+    font-size: 18px;
+    font-weight: 400;
+    display: grid;
+    width: 60%;
+    position: relative;
+    top: -30px;
+}
+
+footer.footer-pos3 {
+    position: relative;
+    top: -1200px;
+}
+/*footer styling*/
+
+footer div.csm-footer {
+  background-color: #564147;
+  width: 100%;
+  height: 272px;
+  position: relative;
+  top: 2400px;
+}
+
+h1.footer-title {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+ div.grid-adress{
+   position: absolute;
+   margin-top: 60px;
+   color: white;
+   
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+ul.foot-info {
+    color: white;
+    list-style: none;
+    position: absolute;
+    top: -115px;
+    margin-left: -45px;
+}
+
+li {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: -5px;
+}
+ul.foot-follow {
+   list-style: none;
+   color: #ffff;
+   position: absolute;
+   left: -45px;
+   top: -22px;
+}
+div.foot-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    font-size: 16px;
+    color: rgba(186, 186, 186, 1);
+}
+
+h4.foot-sos {
+    position: absolute;
+    top: 145px;
+    left: 10px;
+    color: #ffff;
+}
