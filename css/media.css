@@ -1,7 +1,7 @@
 /*media width stylling*/
 
 
-@media only screen and (max-width: 390px)
+@media only screen and (min-width: 320px)
 /* For mobile user*/ {
 /*header for the desktop*/
 
@@ -13,26 +13,27 @@
     height: 3px;
     width: 36px;
     border-radius: 1px;
-    left: 20px;
+    left: -170px;
+    bottom: 10px;
     
 }
 
 .nav-toggle-lable::before {
-    bottom: 12px;
-    left: 20px;
+    bottom: 20px;
+    left: -170px;
 
 }
 
 .nav-toggle-lable::after {
-    top: 5px;
-    left: 20px;
+    top: -3px;
+    left: -170px;
 }
 
 .logo{
     position: absolute;
-    top: 10px;
+    top: 15px;
     left: 15px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: space-grotesk,sans-serif;
     text-decoration: none;
     margin: 0;
@@ -43,7 +44,7 @@
     position: absolute;
     top: 35px;
     left: 15px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: space-grotesk,sans-serif;
     text-decoration: none;
     color: white;
@@ -51,72 +52,82 @@
 }
 .m {
     position: absolute;
-    top: 60px;
+    top: 55px;
     left: 15px;
-    font-size: 20px;
+    font-size: 15px;
     font-family: space-grotesk,sans-serif;
     text-decoration: none;
     color: white;
     z-index: 9999;
+}
+
+a span {
+  position: relative;
+  left: 5px;
+}
+
 }
 /*styled the index page*/
       div img.museum-vis {
         width: 100%;
         height: 388px;
         object-fit: cover;
-        object-position: 0px -300px;
+        object-position: 0px -200px;
         position: absolute;
-        top: 100px;
+        top: 88px;
         left: 0px;
       }
 
       span.border {
-        top: 488px;
+        position: absolute;
+        top: 456px;
       }
 
       div p.span-text {
-        width: 70%;
-        position: relative;
-        top: 360px;
-        left: 150px;
+        font-size: 18px;
+        width: 100%;
+        position: absolute;
+        top: 450px;
+        left: 20px;
       }
 
       button {
         width: 192px;
         height: 37px;
         padding: 10px;
-        position: relative;
-        top: 360px;
-        left: 180px;
+        position: absolute;
+        top: 560px;
+        left: 100px;
     }
 
     button span {
         font-size: 18px;
-        position: relative;
-        top: -3px;
+        position: absolute;
+        top: 5px;
         left: 40px;
     }
 
       div h1.nav-link1 {
-        font-size: 40px;
+        width: 60%;
+        font-size: 30px;
         font-weight: 500;
         position: absolute;
-        top: 150px;
-        left: 150px;
+        top: 110px;
+        left: 100px;
     }
 
     h2 {
         width: 60%;
         font-size: 28px;
         position: absolute;
-        top: 800px;
-        left: 150px;
+        top: 700px;
+        left: 100px;
     }
 
     div.grid-cloum {
         position: absolute;
-        top: 960px;
-        left: 50px;
+        top: 800px;
+        left: 15px;
     }
 
     div.flow-5 {
@@ -125,37 +136,42 @@
 
 
 h4 a {
+    all: unset;
     font-size: 18px;
+    font-weight: normal;
+   text-align: center;
+   
 }
 
 
 div img.grid {
     width: 175px;
     height: 127px;
-    position: relative;
-    left: 23px;
+    position: flex;
+    left: -10px;
    
 }
 
     h2.top {
-        width: 80%;
+        width: 100%;
         font-size: 28px;
         position: absolute;
         top: 1600px;
-        left: 120px;
+        left: 10px;
     }
     
     h2.under {
         font-size: 24px;
         top: 1650px;
-        left: 120px;
+        left: 10px;
    
     }
 
     div.grid-news {
+      
         position: absolute;
-        top: 1750px;
-        left: 100px;
+        top: 1720px;
+        left: 0px;
     }
 
     img {
@@ -177,7 +193,7 @@ div img.grid {
 
     
     p.info {
-       font-size: 18px;
+       font-size: 16px;
        width: 100%;
        position: absolute;
        left: 20px;
@@ -196,26 +212,31 @@ div img.grid {
 
 h1.museum-head {
     font-size: 40px;
-    margin-top: 10px;
-    left: 50px;
+    position: relative;
+    top: -50px;
+    left: 0px;
 }
 
 img.head-pic {
     width: 362px;
     height: 160px;
     position: relative;
-    left: 120px;
+    left: 15px;
+    top: -70px;
+    
 }
 span.span-head {
     height: 415px;
+    top: 0px;
 }
 
 p.paragrah-head {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
-    width: 65%;
+    width: 90%;
     position: relative;
-    left: 70px;
+    left: -20px;
+    top: -70px;
 }
 
 /*explore style*/
@@ -223,15 +244,15 @@ p.paragrah-head {
 div.explore-grid {
     gap: 200px;
     position: absolute;
-    top: 600px;
-    left: 10px;
+    top: 500px;
+    left: -80px;
 }
 
 img.explore-club {
     border-radius: 50%;
     width: 236px;
     height: 236px;
-    z-index: 999;
+    z-index: 909;
     position: relative;
     left: 100px;
 }
@@ -254,7 +275,7 @@ div img.explore-img {
     border-radius: 50%;
     position: relative;
     left: 100px;
-    z-index: 999;
+    z-index: 909;
 }
 
 p.paragrah-section {
@@ -269,7 +290,7 @@ p.paragrah-section {
 img.teacher-img {
     width: 362px;
    height: 160px;
-   left: 10px;
+   left: -70px;
     
 }
 
@@ -277,7 +298,7 @@ img.teacher-img {
 p.teacher-par1 {
     width: 70%;
     position: relative;
-    left: 100px;
+    left: 50px;
     top: -150px;
     font-size: 18px;
 }
@@ -286,27 +307,29 @@ p.teacher-par2 {
     width: 70%;
     font-size: 18px;
     position: absolute;
-    left: 100px;
-    top: 200px;
+    left: 50px;
+    top: 260px;
 }
 
 img.reseacher-img {
     width: 362px;
     height: 160px;
-    left: 100px;
+    left: 20px;
+    top: -50px;
 }
 
 p.re-par {
-    width: 60%;
+    width: 80%;
     position: absolute;
-    left: 100px;
-    top: 550px;
+    left: 50px;
+    top: 690px;
     
 }
 
 
 div.bottom-grid {
     position: relative;
+    gap: 100px;
     top: 2200px;
 
 }
@@ -321,31 +344,31 @@ footer.footer-pos {
 div.exhibtion-grid {
     position: absolute;
     top: 600px;
-    left: 150px;
+    left: 50px;
 }
 
 img.exhi-img {
     width: 362px;
     height: 160px;
-    left: -30px;
+    left: -40px;
 }
 
 img.exhi-imgt {
     width: 362px;
     height: 160px;
-    left: -30px;
+    left: -40px;
 }
 
 img.exhi-imge {
     width: 362px;
     height: 160px;
-    left: -30px;
+    left: -40px;
 }
 
 
 h3.exhi-title {
     top: 20px;
-    left: -100px;
+    left: -50px;
 }
 
 p.exhi-par1 {
@@ -354,15 +377,15 @@ p.exhi-par1 {
     position: relative;
     top: -10px;
     left: -30px;
-    width: 80%;
+    width: 90%;
 }
 p.exhi-par2 {
     font-size: 18px;
     font-weight: 400;
     position: relative;
-    top: -20px;
+    top: -10px;
     left: -30px;
-    width: 80%;
+    width: 90%;
 }
 p.exhi-par3 {
     font-size: 18px;
@@ -370,19 +393,19 @@ p.exhi-par3 {
     position: relative;
     top: -20px;
     left: -30px;
-    width: 70%;
+    width: 90%;
 }
 
 footer.footer-pos1 {
     position: relative;
-    top: 150px;
+    top: 180px;
 }
 
 /*The styling of about us page*/
 
 div.about-grid {
     position: absolute;
-    left: 150px;
+    left: 65px;
 }
 
 img.about-img {
@@ -412,7 +435,8 @@ img.head-pic1 {
     width: 362px;
     height: 160px;
     position: relative;
-    left: 120px;
+    left: 15px;
+    top: -70px;
 }
 
 img.about-imgs {
@@ -426,7 +450,7 @@ img.about-imgs {
 div.involved-grid {
     position: absolute;
     top: 700px;
-    left: 150px;
+    left: 70px;
 }
  
 footer.footer-pos4 {
@@ -436,7 +460,7 @@ footer.footer-pos4 {
 /*The styling of visit page*/
 
 div.visit-grid {
-    top: 600px;
+    top: 500px;
     left: 50px;
 }
 
@@ -482,15 +506,15 @@ footer.footer-pos3{
 /* style footer */
     footer div.csm-footer {
         position: relative;
-        top: 2650px;
+        top: 2750px;
     }
     
     div.foot-grid {
-        width: 20%;
-        grid-template-columns: 1fr;
+        all: unset;
+        width: 30%;
         font-size: 16px;
         position: absolute;
-        left: 340px;
+        left: 240px;
         top: 20px;
         color: rgba(186, 186, 186, 1);
     }
@@ -546,7 +570,7 @@ footer.footer-pos3{
         color: #ffff;
     }
    
-}
+
 @media screen and (min-width: 850px) {
 /*header for the desktop*/
 
