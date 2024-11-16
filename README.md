@@ -1,4 +1,4 @@
-# semester-project-noroff
+# Semester-project-noroff
 This project was for us to help a client, a museum of natural history called the Community Science Museum that was going to open in the town soon and wanted us to make a website The website should be informative and engaging, encouraging viewers to visit the museum.
 
 # What is the project purpose
@@ -9,4 +9,4 @@ Clone the repo: git clone git@github.com:jotvibfeng/semester-project-noroff.git
 Install the dependencies: npm install If you running into an error during installation make sure you have downloaded node_module on your computer. you can use this link for how to download node_module: https://nodejs.org/en/learn/getting-started/how-to-install-nodejs
 
 # How to use the site
-Take your time to explore the multiple exceptions that the site has to offer and I guarantee that you and your kids will not be disappointed. 
+Take your time to explore the multiple exceptions that the site has to offer and I guarantee that you and your kids will not be disappointed. We also have a special guest who come to have presentation regarding the profession they work in, like Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.   
